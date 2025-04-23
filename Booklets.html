@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth About Drugs Booklets | Say No to Drugs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'teal-bright': '#00c8d7',
+                        'teal-dark': '#007a85',
+                        'dark-blue': '#001a20',
+                        'peacock': '#00a0b0',
+                    },
+                    animation: {
+                        'pulse-glow': 'pulse-glow 2s infinite',
+                        'scale': 'scale 0.5s ease-in-out',
+                    },
+                    keyframes: {
+                        'pulse-glow': {
+                            '0%, 100%': { filter: 'brightness(1) drop-shadow(0 0 5px rgba(0, 200, 215, 0.7))' },
+                            '50%': { filter: 'brightness(1.3) drop-shadow(0 0 15px rgba(0, 200, 215, 0.9))' },
+                        },
+                        'scale': {
+                            '0%': { transform: 'scale(1)' },
+                            '50%': { transform: 'scale(1.1)' },
+                            '100%': { transform: 'scale(1)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .glow-text {
+            text-shadow: 0 0 10px rgba(0, 200, 215, 0.7);
+        }
+        
+        .card {
+            background-color: white;
+            border-radius: 2px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+        
+        .header-link {
+            position: relative;
+            color: white;
+            transition: color 0.3s ease;
+        }
+        
+        .header-link:after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -4px;
+            left: 0;
+            background-color: #00c8d7;
+            transition: width 0.3s ease;
+        }
+        
+        .header-link:hover {
+            color: #00c8d7;
+        }
+        
+        .header-link:hover:after {
+            width: 100%;
+        }
+        
+        .peacock-gradient {
+            background: linear-gradient(to right, white, #00c8d7);
+        }
+        
+        .footer-wave {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z' fill='%23001a20' opacity='.25'%3E%3C/path%3E%3C/svg%3E");
+            background-size: cover;
+            background-position: center;
+            height: 50px;
+        }
+        
+        .booklet-card {
+            transition: all 0.3s ease;
+        }
+        
+        .booklet-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 25px rgba(0, 200, 215, 0.2);
+        }
+        
+        .booklet-card:hover .download-btn {
+            background-color: #00c8d7;
+            color: black;
+        }
+        
+        .download-btn {
+            transition: all 0.3s ease;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-800 min-h-screen">
+    <!-- Header -->
+       <!-- Header -->
+       <header class="bg-dark-blue py-4 px-6 shadow-md text-white">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-teal-bright">DRUG-FREE WORLD</h1>
+            <nav class="flex gap-4">
+                <a href="index.html" class="header-link">Home</a>
+                <a href="videos.html" class="header-link text-teal-bright">Videos</a>
+                <a href="booklets.html" class="header-link">Booklets</a>
+            </nav>
+        </div>
+    </header>
+    <!-- Page Title Banner -->
+    <section class="bg-gradient-to-r from-teal-dark to-teal-bright py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-white text-4xl md:text-5xl font-bold mb-4">TRUTH ABOUT DRUGS BOOKLETS</h1>
+            <p class="text-white text-xl max-w-3xl mx-auto">
+                Free educational materials about the most commonly abused drugs. Download or request printed copies.
+            </p>
+        </div>
+    </section>
+
+    <!-- Introduction Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/booklets-x6RtLFxd2x5RmFTeYPqe899mF02Dvy.png" alt="Booklets Collection" class="mx-auto mb-8 max-w-full h-auto" style="max-height: 300px;">
+                <h2 class="text-teal-bright text-3xl font-bold mb-6">EDUCATIONAL BOOKLETS THAT SAVE LIVES</h2>
+                <p class="mb-6 text-lg">
+                    These easy-to-read booklets provide factual information about the most commonly abused drugs. 
+                    They describe how the drugs work, their short-term and long-term effects, the myths surrounding them, 
+                    and the warning signs of abuse.
+                </p>
+                <p class="mb-8 text-lg">
+                    These materials are designed for young people, but parents, teachers, counselors, police, and health professionals 
+                    can all use them to educate others about drugs.
+                </p>
+                <div class="flex flex-col md:flex-row justify-center gap-4">
+                    <a href="#request" class="bg-teal-bright text-black font-bold py-3 px-8 hover:bg-teal-dark hover:text-white transition-colors">
+                        REQUEST PRINTED COPIES
+                    </a>
+                    <a href="#download" class="bg-dark-blue text-white font-bold py-3 px-8 hover:bg-teal-bright hover:text-black transition-colors">
+                        DOWNLOAD PDF VERSIONS
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booklets Grid Section -->
+    <section id="download" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-teal-bright text-3xl font-bold text-center mb-12">DOWNLOAD INDIVIDUAL BOOKLETS</h2>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+                <!-- Booklet 1 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Marijuana" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Marijuana</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about the short and long-term effects of marijuana, its impact on the brain, and the myths vs. facts.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 2 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Alcohol" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Alcohol</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Discover the facts about alcohol, its effects on the body, and the dangers of alcohol abuse and addiction.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 3 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Synthetic Drugs" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Synthetic Drugs</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about synthetic drugs, their unpredictable effects, and the serious health risks they pose.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 4 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Prescription Drugs" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Prescription Drugs</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Understand the dangers of prescription drug abuse, addiction, and how to recognize the warning signs.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 5 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Cocaine" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Cocaine</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about cocaine, its short and long-term effects, and the physical and mental damage it causes.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 6 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Heroin" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Heroin</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Discover the facts about heroin, its highly addictive nature, and the devastating effects of heroin use.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 7 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Ecstasy" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Ecstasy</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about MDMA (ecstasy), its effects on the brain and body, and the serious health risks it poses.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 8 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Crystal Meth" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Crystal Meth</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Understand the dangers of methamphetamine, its highly addictive nature, and its devastating effects.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 9 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Painkillers" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Painkillers</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about prescription painkiller abuse, addiction, and the opioid crisis affecting communities.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 10 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About LSD" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About LSD</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Discover the facts about LSD, its unpredictable effects, and the long-term psychological risks.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 11 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Inhalants" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Inhalants</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            Learn about the dangers of inhalants, their toxic effects on the body, and the risks of sudden death.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Booklet 12 -->
+                <div class="booklet-card bg-white border border-gray-200 overflow-hidden">
+                    <div class="relative">
+                        <img src="/placeholder.svg?height=300&width=220" alt="The Truth About Drugs" class="w-full h-64 object-cover">
+                        <div class="absolute top-0 right-0 bg-teal-bright text-black px-3 py-1 font-bold">
+                            PDF
+                        </div>
+                    </div>
+                    <div class="p-4">
+                        <h3 class="font-bold text-xl mb-2">The Truth About Drugs</h3>
+                        <p class="text-gray-600 mb-4 text-sm">
+                            A comprehensive overview of drugs, their effects, and why people take them. Perfect introduction to drug education.
+                        </p>
+                        <a href="#" class="download-btn block text-center bg-dark-blue text-white py-2 font-bold hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Request Printed Copies Section -->
+    <section id="request" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-teal-bright text-3xl font-bold text-center mb-8">REQUEST PRINTED COPIES</h2>
+                <p class="text-center mb-8">
+                    Fill out the form below to request printed copies of our booklets for your school, organization, or community event.
+                </p>
+                
+                <div class="bg-gray-50 p-6 border border-gray-200">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-gray-700 font-bold mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright">
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-gray-700 font-bold mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright">
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 font-bold mb-2">Email Address *</label>
+                            <input type="email" id="email" name="email" required class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright">
+                        </div>
+                        
+                        <div>
+                            <label for="organization" class="block text-gray-700 font-bold mb-2">Organization</label>
+                            <input type="text" id="organization" name="organization" class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright">
+                        </div>
+                        
+                        <div>
+                            <label for="address" class="block text-gray-700 font-bold mb-2">Mailing Address *</label>
+                            <textarea id="address" name="address" rows="3" required class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright"></textarea>
+                        </div>
+                        
+                        <div>
+                            <label for="booklets" class="block text-gray-700 font-bold mb-2">Booklets Requested *</label>
+                            <div class="space-y-2">
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="complete-set" name="booklets" value="complete-set" class="mr-2">
+                                    <label for="complete-set">Complete Set of Booklets</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="marijuana" name="booklets" value="marijuana" class="mr-2">
+                                    <label for="marijuana">The Truth About Marijuana</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="alcohol" name="booklets" value="alcohol" class="mr-2">
+                                    <label for="alcohol">The Truth About Alcohol</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="synthetic" name="booklets" value="synthetic" class="mr-2">
+                                    <label for="synthetic">The Truth About Synthetic Drugs</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="prescription" name="booklets" value="prescription" class="mr-2">
+                                    <label for="prescription">The Truth About Prescription Drugs</label>
+                                </div>
+                                <div class="flex items-center">
+                                    <input type="checkbox" id="other-booklets" name="booklets" value="other" class="mr-2">
+                                    <label for="other-booklets">Other (Please specify in comments)</label>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div>
+                            <label for="quantity" class="block text-gray-700 font-bold mb-2">Quantity Needed *</label>
+                            <select id="quantity" name="quantity" required class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright">
+                                <option value="">Select quantity</option>
+                                <option value="10-25">10-25 copies</option>
+                                <option value="26-50">26-50 copies</option>
+                                <option value="51-100">51-100 copies</option>
+                                <option value="101-250">101-250 copies</option>
+                                <option value="251+">251+ copies</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="comments" class="block text-gray-700 font-bold mb-2">Additional Comments</label>
+                            <textarea id="comments" name="comments" rows="4" class="w-full px-4 py-2 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-bright"></textarea>
+                        </div>
+                        
+                        <div class="text-center">
+                            <button type="submit" class="bg-teal-bright text-black font-bold py-3 px-8 hover:bg-teal-dark hover:text-white transition-colors">
+                                SUBMIT REQUEST
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Complete Set Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center gap-8">
+                <div class="md:w-1/2">
+                    <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/booklets-x6RtLFxd2x5RmFTeYPqe899mF02Dvy.png" alt="Complete Booklet Set" class="w-full h-auto">
+                </div>
+                <div class="md:w-1/2">
+                    <h2 class="text-teal-bright text-3xl font-bold mb-6">GET THE COMPLETE SET</h2>
+                    <p class="mb-6">
+                        The complete Truth About Drugs booklet set includes all 12 booklets, providing comprehensive information about the most commonly abused drugs.
+                    </p>
+                    <p class="mb-6">
+                        Each booklet focuses on a specific drug or drug category, making it easy to find the information you need. The set is perfect for schools, community centers, healthcare facilities, and drug education programs.
+                    </p>
+                    <p class="mb-8">
+                        Request your complete set today and help spread the truth about drugs in your community.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#request" class="bg-teal-bright text-black font-bold py-3 px-8 text-center hover:bg-teal-dark hover:text-white transition-colors">
+                            REQUEST COMPLETE SET
+                        </a>
+                        <a href="#download" class="bg-dark-blue text-white font-bold py-3 px-8 text-center hover:bg-teal-bright hover:text-black transition-colors">
+                            DOWNLOAD ALL BOOKLETS
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-teal-bright text-3xl font-bold text-center mb-12">WHAT EDUCATORS ARE SAYING</h2>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-gray-50 p-6 border-l-4 border-teal-bright">
+                    <p class="italic mb-4">
+                        "These booklets have been an invaluable resource for our school's drug prevention program. The students find them engaging and informative, and they've sparked important conversations about drug use."
+                    </p>
+                    <p class="font-bold">- Sarah Johnson</p>
+                    <p class="text-gray-600">High School Counselor</p>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="bg-gray-50 p-6 border-l-4 border-teal-bright">
+                    <p class="italic mb-4">
+                        "I've been using the Truth About Drugs booklets in my health classes for years. They present the facts in a straightforward way that resonates with teenagers and helps them make informed decisions."
+                    </p>
+                    <p class="font-bold">- Michael Rodriguez</p>
+                    <p class="text-gray-600">Health Education Teacher</p>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="bg-gray-50 p-6 border-l-4 border-teal-bright">
+                    <p class="italic mb-4">
+                        "As a community outreach coordinator, I've distributed thousands of these booklets at events. The response has been overwhelmingly positive, and they've helped us reach young people with critical information."
+                    </p>
+                    <p class="font-bold">- Lisa Thompson</p>
+                    <p class="text-gray-600">Community Outreach Coordinator</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Wave -->
+    <div class="footer-wave"></div>
+
+    <!-- Footer -->
+    <footer class="bg-dark-blue text-white py-8">
+        <div class="container mx-auto px-4">
+            <!-- Newsletter Signup -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8 pb-8 border-b border-gray-700">
+                <div>
+                    <h4 class="font-bold mb-2">Sign up for news and updates from the foundation!</h4>
+                </div>
+                <div class="flex flex-col md:flex-row gap-2 mt-4 md:mt-0">
+                    <input type="text" placeholder="First Name" class="px-3 py-2 bg-white text-black">
+                    <input type="text" placeholder="Last Name" class="px-3 py-2 bg-white text-black">
+                    <input type="email" placeholder="Email Address" class="px-3 py-2 bg-white text-black">
+                    <button class="bg-black text-teal-bright px-4 py-2 font-bold">SUBSCRIBE</button>
+                </div>
+            </div>
+            
+            <!-- Connect with us -->
+            <div class="flex flex-col md:flex-row justify-between items-center mb-8">
+                <div>
+                    <h4 class="font-bold">Connect with us!</h4>
+                </div>
+                <div class="flex space-x-4 mt-4 md:mt-0">
+                    <a href="#" class="text-white hover:text-teal-bright">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="text-white hover:text-teal-bright">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Main Footer Links -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Foundation Logo and Info -->
+                <div class="md:col-span-1">
+                    <div class="flex items-center mb-4">
+                        <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/who%20we%20are-hqTZMSdmp3yJGYKKcQN6ny05b8ZxxJ.png" alt="Foundation Logo" class="w-10 h-10">
+                        <span class="ml-2 text-teal-bright font-bold">Foundation for a Drug-Free World International</span>
+                    </div>
+                    <p class="text-sm">6331 Hollywood Blvd., Suite 710, Los Angeles, CA 90028 United States</p>
+                </div>
+                
+                <!-- Who We Are -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">WHO WE ARE</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-teal-bright">About the Foundation</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Donate</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Contact Us</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Drug Education -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">DRUG EDUCATION</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-teal-bright">Get Drug Facts</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Watch the Real People, Real Stories Documentary</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">See They Said / They Lied PSAs</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Start Free E-Courses</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Take the Quiz</a></li>
+                        <li><a href="booklets.html" class="hover:text-teal-bright">Download Booklets</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Get Involved -->
+                <div>
+                    <h4 class="font-bold text-lg mb-4">GET INVOLVED</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#" class="hover:text-teal-bright">Educators</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Law Enforcement</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Parents</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Sign the Drug-Free Pledge</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Start an Online Class</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Join a Team</a></li>
+                        <li><a href="#" class="hover:text-teal-bright">Order Bulk Materials</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Language Selector and Legal Links -->
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div>
+                    <button class="border border-gray-600 px-4 py-2 text-sm">Choose a Language</button>
+                </div>
+                <div class="flex flex-wrap gap-4 mt-4 md:mt-0 text-sm">
+                    <a href="#" class="text-teal-bright hover:underline">Privacy Notice</a> | 
+                    <a href="#" class="text-teal-bright hover:underline">Cookie Policy</a> | 
+                    <a href="#" class="text-teal-bright hover:underline">Terms of Use</a> | 
+                    <a href="#" class="text-teal-bright hover:underline">Legal Notice</a>
+                </div>
+            </div>
+            
+            <div class="text-center mt-8 text-sm">
+                <p>&copy; 2025 Foundation for a Drug-Free World. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple JavaScript for additional interactivity
+        document.addEventListener('DOMContentLoaded', function() {
+            // Add smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    if (targetId === '#') return;
+                    
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        window.scrollTo({
+                            top: targetElement.offsetTop - 100,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
